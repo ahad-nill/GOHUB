@@ -1,0 +1,577 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+	font-family: brown;
+	font-size: 14px;
+	line-height: 24px;
+	background: #fff;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: brown;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+/*hero section*/
+.hero-section{
+	width: 100%;
+	background: url(../images/herobg.png) center top no-repeat;
+	background-size: 119%;
+}
+.hero-section .main-header .navbar-brand{
+	padding: 20px 0px;
+}
+.hero-section .main-header .navbar-brand img{
+	width: 90% ;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #32325D;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0.2rem;
+    margin: 0 0.5rem;
+    padding: 0.4rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #fff;
+    background: #845CFF;
+}
+
+.hero-section .header-section .description{
+	width: 100%;
+    padding: 12rem 0 8rem;
+}
+
+.hero-section .header-section .description h1{
+	font-weight: bold;
+	color: #32325D;
+	font-size: 2.8rem;
+	margin-bottom: 2rem;
+}
+
+.hero-section .header-section .description p{
+	font-weight: 300;
+	font-size: 1.3rem;
+    line-height: 1.8rem;
+	color: #32325D;
+	margin-bottom: 2rem;
+}
+
+.hero-section .header-section .description .btn-started{
+	color: #845CFF;
+    font-size: 0.8rem;
+    font-weight: bold;
+	background: transparent;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid #845CFF;
+    margin-right: 1rem;
+    box-shadow: none;
+}
+
+.hero-section .header-section .description .btn-started:hover{
+	color: #fff;
+	background: #845CFF;
+    box-shadow: none;
+}
+
+.hero-section .header-section .description .questions{
+	color: #32325D;
+    font-size: 1rem;
+}
+
+.hero-section .header-section .description .questions:hover{
+	color: #845CFF;
+}
+
+.hero-section .about-section .about-titel{
+	width: 90%;
+	padding: 14rem 0 0;
+}
+
+.hero-section .about-section .about-titel h2 {
+	color: #32325D;
+    font-size: 2.8rem;
+    font-weight: 300;
+    margin: 0 0 2rem 0;
+}
+
+.hero-section .about-section .about-titel p{
+	color: #525F7F;
+	font-weight: 300;
+
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+}
+
+.hero-section .about-section .about-card{
+	width: 90%;
+	background: #fff;
+    border-radius: 5px;
+    padding: 80px 60px;
+   	box-shadow: -10px 10px 20px -3px #EFF1FA;
+    margin-bottom: 30px;
+} 
+
+.hero-section .about-section .about-card .fa img{
+	width: 100%;
+}
+
+.hero-section .about-section .about-card .fa{
+	height: 7rem;
+	margin: 0 0 3rem 2rem;
+}
+
+.hero-section .about-section .about-card h4{
+	color: #212240;
+	font-weight: 300;
+	margin-bottom: 16px;
+}
+
+
+.hero-section .about-section .about-card p{
+	color: #525F7F;font-size: 1rem;
+	font-weight: 300;
+}
+
+/*service-section*/
+.service-section{
+	width: 100%;
+	background: url(../images/servicebg.png) center bottom no-repeat;
+	background-size: 100%;
+	padding: 80px 0;
+}
+
+.service-section .service-titel h2{
+	font-size: 2.7rem;
+    font-weight: 300;
+    color: #212240;
+    margin-bottom: 2rem;
+}
+
+.service-section .service-titel p{
+	color: #525F7F;
+    font-size: 1.2rem;
+    padding: 0px 4rem;
+    margin-bottom: 7rem;
+}
+
+.service-section .services img{
+	width: 4.5rem;
+	margin-bottom: 30px;
+}
+
+.service-section .services h5{
+	font-size: 1rem;
+	font-weight: 600;
+	color: #212240;
+}
+
+.service-section .services p{
+	font-size: 0.8rem;
+	color: #525F7F;
+	padding: 0 1rem;
+	margin-bottom: 6rem;
+}
+/*service-section*/
+/*whatwedo-section*/
+.whatwedo-section{
+	width: 100%;
+	padding: 80px 0;
+}
+.whatwedo-section .safety .safety-inner{
+	width: 100%;
+	background: url(../images/safety.png) center right no-repeat;
+	background-size: 50%;
+	padding: 80px 0;
+}
+
+.whatwedo-section .safety .safety-inner .safety-titel h2{
+	font-size: 2.7rem;
+    font-weight: 300;
+    color: #212240;
+    margin-bottom: 2rem;
+}
+
+.whatwedo-section .safety .safety-inner  .safety-titel p{
+	color: #525F7F;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.whatwedo-section .safety .safety-inner h5{
+	font-size: 1.5rem;
+    font-weight: 300;
+    color: #212240;
+    margin-bottom: 0.8rem;
+}
+
+.whatwedo-section .safety .safety-inner p{
+	color: #525F7F;
+    font-size: 0.8rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.whatwedo-section .safety .safety-inner .btn-started{
+	color: #845CFF;
+    font-size: 0.6rem;
+    font-weight: bold;
+	background: transparent;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid #845CFF;
+    margin-right: 1rem;
+    box-shadow: none;
+}
+
+.whatwedo-section .safety .safety-inner .btn-started:hover{
+	color: #fff;
+	background: #845CFF;
+    box-shadow: none;
+}
+
+.whatwedo-section .safety .safety-inner .questions{
+	color: #32325D;
+    font-size: 0.8rem;
+}
+
+.whatwedo-section .safety .safety-inner .questions:hover{
+	color: #845CFF;
+}
+
+.whatwedo-section .move{
+	background: transparent;
+}
+
+.whatwedo-section .move .move-inner{
+	width: 100%;
+	background: url(../images/move.png) center left no-repeat;
+	background-size: 50%;
+	padding: 80px 0;
+}
+
+.whatwedo-section .move .move-inner .move-titel h2{
+	font-size: 2.7rem;
+    font-weight: 300;
+    color: #212240;
+    margin-bottom: 2rem;
+}
+
+.whatwedo-section .move .move-inner  .move-titel p{
+	color: #525F7F;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.whatwedo-section .move .move-inner h5{
+	font-size: 1.5rem;
+    font-weight: 300;
+    color: #212240;
+    margin-bottom: 0.8rem;
+}
+
+.whatwedo-section .move .move-inner p{
+	color: #525F7F;
+    font-size: 0.8rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.whatwedo-section .move .move-inner .btn-started{
+	color: #845CFF;
+    font-size: 0.6rem;
+    font-weight: bold;
+	background: transparent;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid #845CFF;
+    margin-right: 1rem;
+    box-shadow: none;
+}
+
+.whatwedo-section .move .move-inner .btn-started:hover{
+	color: #fff;
+	background: #845CFF;
+    box-shadow: none;
+}
+
+.whatwedo-section .move .move-inner .questions{
+	color: #32325D;
+    font-size: 0.8rem;
+}
+
+.whatwedo-section .move .move-inner .questions:hover{
+	color: #845CFF;
+}
+
+.whatwedo-section .finance{
+	width: 100%;
+	padding: 80px 0 0;
+}
+
+.whatwedo-section .finance-top{
+	width: 100%;
+	background: url(../images/finance.png) right bottom no-repeat;
+	background-size: 50%;
+	padding-top: 40px;
+}
+
+.whatwedo-section .finance-bottom{
+	padding: 40px 0 0;
+}
+
+.whatwedo-section .finance .finance-inner .finance-titel h2{
+	font-size: 2.7rem;
+    font-weight: 300;
+    color: #32325D;
+    margin-bottom: 2rem;
+}
+
+.whatwedo-section .finance .finance-inner  .finance-titel p{
+	color: #525F7F;
+    font-size: 1.2rem;
+    margin-bottom: 7rem;
+}
+
+.whatwedo-section .finance .finance-inner .fa{
+	width: 15px;
+    margin-right: 10px;
+}
+
+.whatwedo-section .finance .finance-inner h4{
+	font-size: 1.7rem;
+    color: #32325D;
+    margin-bottom: 1.5rem;
+}
+ 
+.whatwedo-section .finance .finance-inner p{
+	font-weight: 300;
+    color: #32325D;
+
+}
+
+/*whatwedo-section*/
+
+/*getstarted-section*/
+.getstarted-section{
+	width: 100%;
+	background: #FAFAFF;
+	padding: 80px 0;
+}
+
+.getstarted-titel img{
+	margin-bottom: 20px;
+}
+
+.getstarted-section .getstarted-titel h2{
+	font-size: 2.7rem;
+    font-weight: 300;
+    color: #32325D;
+    margin-bottom: 2rem;
+}
+
+.getstarted-section .getstarted-titel p{
+	color: #525F7F;
+    font-size: 1.2rem;
+}
+
+.getstarted-section .form{
+	text-align: left;
+	width: 100%;
+	height: 50%;
+	margin: 3rem 0;
+	
+}
+.getstarted-section .form .form-group{
+	position: relative;
+    margin: 0;
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: -1px 1px 3px 3px #a98dff1f;
+}
+
+.getstarted-section .form .form-group .form-control{
+    background: transparent;
+    border: 0;
+    color: #797979;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.1rem;
+    height: auto;
+    width: 65%;
+    box-shadow: none;
+}
+.getstarted-section .form .btn-getstarted{
+    position: absolute;
+    color: #845CFF;
+    top: 1.5%;
+    right: 0%;
+    padding: 1rem 1.7rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.getstarted-section .form .btn-getstarted:hover,
+.getstarted-section .form .btn-getstarted:focus{
+	color: #fff;
+	background: #845CFF;
+
+}
+/*getstarted-section*/
+
+.footer-section{
+	width: 100%;
+	background: #212240;
+	padding: 80px 0;
+
+}
+
+
+
+.footer-section .company{
+	padding: 0px;
+	margin: 0px;
+}
+.company li {
+   	list-style: none;
+   	margin: 1.6rem 0;
+}
+
+.company li a{
+	color: #D3D3D9;
+	font-size: 0.8rem;
+	font-weight: 300;
+	
+	
+}
+
+.footer-section .company.socials{
+	width: 100%;
+}
+
+.socials ul{
+	padding: 0px;
+    margin: 3.5rem 0 0px;
+}
+.socials ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+}
+
+.socials ul li a .fa{
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	color: #555377;
+	font-size: 18px;
+	
+	
+}
+.socials ul li a .fa:hover{
+	transition: 0.2s;
+	color: #008ED6;
+}
+
+.footer-section .copyright{
+	text-transform: uppercase;
+	color: #3F3E43;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+
+
+.footer-section .aboutus{
+	padding: 0px;
+	margin: 0px;
+}
+.aboutus li {
+   	list-style: none;
+   	margin: 1rem 0;
+}
+
+.aboutus li a{
+	color: #D3D3D9;
+	font-size: 0.8rem;
+	font-weight: 300;
+	
+	
+}
+
+.footer-section .offerings{
+	padding: 0px;
+	margin: 0px;
+}
+.offerings li {
+   	list-style: none;
+   	margin: 1rem 0;
+}
+
+.offerings li a{
+	color: #D3D3D9;
+	font-size: 0.8rem;
+	font-weight: 300;
+	
+	
+}
+
+.footer-section .connect{
+	padding: 0px;
+	margin: 0px;
+}
+.connect li {
+   	list-style: none;
+   	margin: 1rem 0;
+}
+
+.connect li a{
+	color: #D3D3D9;
+	font-size: 0.8rem;
+	font-weight: 300;
+	
+}
+
+.footer-section .copyright{
+	color: #555377;
+	font-size: 0.8rem;
+	font-weight: 300;
+	margin: 0;
+}
+
+.footer-section .Privacy{
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+}
+.Privacy li {
+   	list-style: none;
+	display: inline-block;
+}
+
+.Privacy li a{
+	color: #555377;
+	font-size: 0.8rem;
+	font-weight: 300;
+	padding: 0 1rem;
+	
+}
+
+.footer-section  .footer-bottom{
+	padding: 5rem 0 0;
+}
+
+.footer-section li a:hover{
+	transition: 0.2s;
+	color: #fff;
+}
